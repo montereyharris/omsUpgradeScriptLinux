@@ -9,6 +9,6 @@ For functionatity information pleae review this doc from Microsoft [here](https:
 
 Run the following command in shell. This will download the shell script and latest agent file as of this commit. It will then run upgrade sequence.
 
-```
+```bash
 wget https://raw.githubusercontent.com/montereyharris/omsUpgradeScriptLinux/main/omsagentupgrade.sh && sh omsagentupgrade.sh
 ```
