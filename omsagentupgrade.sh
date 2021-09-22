@@ -19,6 +19,5 @@ else
     echo "Note that there will be no further releases of the 32-bit OMS Linux agent."
     echo "The final version with 32-bit support is 1.12.15-0, which will now be installed."
     wget -O ${BUNDLE_X86} ${GITHUB_RELEASE_X86}${BUNDLE_X86} && $SUDO sh ./${BUNDLE_X86} --upgrade
-
-
+fi
 #Manual command wget -O "https://github.com/microsoft/OMS-Agent-for-Linux/releases/download/OMSAgent_v1.13.40-0/omsagent-1.13.40-0.universal.x64.sh" && sudo omsagent-1.13.40-0.universal.x64.sh --upgrade 
