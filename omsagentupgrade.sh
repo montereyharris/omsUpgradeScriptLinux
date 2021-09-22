@@ -22,4 +22,3 @@ else
 
 
 #Manual command wget -O "https://github.com/microsoft/OMS-Agent-for-Linux/releases/download/OMSAgent_v1.13.40-0/omsagent-1.13.40-0.universal.x64.sh" && sudo omsagent-1.13.40-0.universal.x64.sh --upgrade 
-
